@@ -1,0 +1,80 @@
+:root{
+
+    --vermelho : #E50914;
+    --preta:#141414;
+
+}
+
+
+*{ /*Resetando a configuração do navegador */
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+/*elementos base */
+
+body{
+
+    background:  var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+
+header  .container{/*trabalhando com flexbox*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;/* alinha os documentos de forma vertical */
+    justify-content:space-between;/*Irá criar um espaço entre a tag h2 e nav */
+
+
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+
+
+}
+
+header nav a{
+    text-decoration: none; /*remove o sublinhado*/
+    color:#AAAAAA;
+    margin-right: 10px;
+
+
+
+}
+
+header nav a:hover{
+     color:#fff;
+
+}
+
+/*filme principal */
+
+.filme-principal{
+
+
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-simp.jpg');
+    height:800px;
+    background-size: cover;
+
+
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+.filme-principal .descricao{
+    margin-bottom: 90px;
+}
+
+.titulo{
+    font-size: 40px;
+
+}

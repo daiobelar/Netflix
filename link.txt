@@ -1,0 +1,3 @@
+https://web.dio.me/lab/recriando-a-interface-do-netflix/learning/fd4e1739-eb40-4b84-b827-92f760627261
+
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/background-size
